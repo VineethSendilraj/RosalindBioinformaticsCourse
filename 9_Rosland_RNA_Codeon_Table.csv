@@ -1,0 +1,22 @@
+PossibleCodeons,OneLetterCode
+GCU or GCC or GCA or GCG,A
+CGU or CGC or CGA or CGG or AGA or AGG,R
+AAU or AAC,N
+GAU or GAC,D
+UGU or UGC,C
+CAA or CAG,Q
+GAA or GAG,E
+GGU or GGC or GGA or GGG,G
+CAU or CAC,H
+AUU or AUC or AUA,I
+CUU or CUC or CUA or CUG or UUA or UUG,L
+AAA or AAG,K
+AUG,M
+UUU or UUC,F
+CCU or CCC or CCA or CCG,P
+UCU or UCC or UCA or UCG or AGU or AGC,S
+ACU or ACC or ACA or ACG,T
+UGG,W
+UAU or UAC,Y
+GUU or GUC or GUA or GUG,V
+UAA or UGA or UAG,*
