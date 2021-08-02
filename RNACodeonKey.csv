@@ -14,9 +14,9 @@ AAA or AAG,K
 AUG,M
 UUU or UUC,F
 CCU or CCC or CCA or CCG,P
-UCU or UCC or UCA or UCG or AGU or AGC,S
+AGU or AGC or UCU or UCC or UCA or UCG,S
 ACU or ACC or ACA or ACG,T
 UGG,W
 UAU or UAC,Y
 GUU or GUC or GUA or GUG,V
-UAA or UGA or UAG,*
+UAA or UAG or UGA,*

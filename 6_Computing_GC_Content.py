@@ -1,4 +1,3 @@
-
 class fastaSequences:
     name, Gsequence = '', ''
     GDataSets=[]
@@ -10,7 +9,7 @@ class fastaSequences:
 
     def addNewSequenceInfo(self):
         if(len(self.Gsequence)>0):
-            self. GDataSets.append([self.name, self.Gsequence])
+            self.GDataSets.append([self.name, self.Gsequence])
             self.name=''
             self. Gsequence =  ''  
     def appendSequence(self, line):
@@ -30,7 +29,7 @@ class fastaSequences:
 
 
 
-fileName = '5_ComputingGC_Content_Test_File.txt'
+fileName = '6_ComputingGC_Content_Test_File.txt'
 with open(fileName, 'r') as f:
     table = fastaSequences() 
     
@@ -39,8 +38,10 @@ with open(fileName, 'r') as f:
         if  fastaSequences.isNewSequence(updateLine):
             table.addNewSequenceInfo()
             table.newSequenceStart(updateLine)
+            
         else:
             table.appendSequence(updateLine)
+        print(table)
     table.addNewSequenceInfo()
     percentage = table.processSeqeunce()
     print(percentage[1])

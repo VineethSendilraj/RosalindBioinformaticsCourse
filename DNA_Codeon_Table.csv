@@ -1,0 +1,23 @@
+GCA or GCC or GCG or GCT,A
+AGA or AGG or CGA or CGC or CGG or CGT,R
+AAC or AAT,N
+GAC or GAT,D
+AAC or AAT or GAC or GAT,B
+TGC or TGT,C
+CAA or CAG,Q
+GAA or GAG,E
+CAA or CAG or GAA or GAG,Z
+GGA or GGC or GGG or GGT,G
+CAC or CAT,H
+ATA or ATC or ATT,I
+CTA or CTC or CTG or CTT or TTA or TTG,L
+AAA or AAG,K
+ATG,M
+TTC or TTT,F
+CCA or CCC or CCG or CCT,P
+AGC or AGT or TCA or TCC or TCG or TCT,S
+ACA or ACC or ACG or ACT,T
+TGG,W
+TAC or TAT,Y
+GTA or GTC or GTG or GTT,V
+TAA or TAG or TGA,*
